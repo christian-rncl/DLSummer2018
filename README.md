@@ -13,6 +13,7 @@ Usage:
 <code> node google_imgs_scraper [search_string] [n] [show browser?] </code>
 <code>node google_imgs_scraper bears 400 true
 </code>
+<br>
 **Lesson 1:** Cabbage vs Lettuce image classifier
 
 
