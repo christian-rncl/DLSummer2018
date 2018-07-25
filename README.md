@@ -1,4 +1,4 @@
-# DLSummer2018
+# Deep Learning - Summer 2018
 My summer 2018 deep learning journey from fast.ai deep learning part 1
 
 
