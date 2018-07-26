@@ -1,11 +1,12 @@
 
-const fs = require("fs"),
-    request = require('request'),
-    Scraper = require('images-scraper'),
-    download = require('image-downloader');
+const   Scraper = require('images-scraper'),
+        download = require('image-downloader');
+
+// keeps track of number assigned to each image
 var i = 0;
 
-function dl_img (filename, uri, callback){
+// filename:string, uri: string -> null
+function dl_img (filename, uri){
     const options =  {
         url: uri,
         dest: filename 
