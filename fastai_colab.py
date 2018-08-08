@@ -18,7 +18,7 @@ def get_pytorch():
         call(["pip install -q http://download.pytorch.org/whl/{accelerator}/torch-0.3.0.post4-{platform}-linux_x86_64.whl torchvision"])
 
 def get_pil():
-    call(['pip install --no-cache-dir -I pillow'])
+    call(['pip install --no-cache-dir -I pillow'], shell=True)
 
 def get_fastai():
     if 'fastai' not in sys.modules:
